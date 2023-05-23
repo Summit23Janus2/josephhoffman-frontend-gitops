@@ -1,0 +1,15 @@
+app:
+  name: josephhoffman-poi-map-app
+  namespace: josephhoffman
+  cluster: .apps.summit23blues.6mbu.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus2/josephhoffman-frontend
+  org: Summit23Janus2
+  name: josephhoffman-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: josephhoffman/poi-map-app
+  tag: latest
